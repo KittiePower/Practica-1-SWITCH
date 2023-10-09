@@ -1,0 +1,61 @@
+/******************************************************************************
+Practica 1 SWITCH
+Nombre: Elisa Michelle Medina Vázquez
+Fecha: 31122
+*******************************************************************************/
+
+import java.util.Scanner;
+public class Main {
+public static void main(String[] args) {
+Scanner teclado = new Scanner( System.in );
+int num,costo,numMin;
+
+System.out.print(" Introduzca una clave: ");
+num=teclado.nextInt();
+switch(num){
+    
+case 23:
+System.out.print(" Introduzca los minutos de la llamada: ");
+numMin=teclado.nextInt();
+costo= numMin*6;
+System.out.println("costo total " + costo );
+break;
+
+case 12:
+System.out.print(" Introduzca los minutos de la llamada: ");
+numMin=teclado.nextInt();
+costo= numMin*2;
+System.out.println("costo total " + costo );
+break;
+
+case 15:
+System.out.print(" Introduzca los minutos de la llamada: ");
+numMin=teclado.nextInt();
+costo= numMin*2;
+System.out.println("costo total " + costo );
+break;
+
+case 18:
+System.out.print(" Introduzca los minutos de la llamada: ");
+numMin=teclado.nextInt();
+costo= numMin*4;
+System.out.println("costo total " + costo );
+break;
+
+case 29:
+System.out.print(" Introduzca los minutos de la llamada: ");
+numMin=teclado.nextInt();
+costo= numMin*5;
+System.out.println("costo total " + costo );
+break;
+
+}
+}
+}
+
+
+
+
+
+
+
